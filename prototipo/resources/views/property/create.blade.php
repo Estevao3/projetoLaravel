@@ -7,6 +7,7 @@
 	<form action="<?= url('/imoveis/store'); ?>" method="post">
 		
 		<?= csrf_field(); ?>
+		
 
 		<div class="form-group">
 			<label for="title">Título do imóvel</label>
